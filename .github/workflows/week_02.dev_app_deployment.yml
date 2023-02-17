@@ -28,25 +28,25 @@ name: Week 2 Application Deployment to Amazon ECS - Dev
 on: 
   workflow_dispatch:
     branches:
-    - master
+    - prod
     - dev
     paths: 
-    - 02_week/dev/application/**
+    - week2/dev/application/**
   push:
     branches:
-    - master
+    - prod
     - dev
     paths:
-    -  02_week/dev/application/**
+    -  week2/dev/application/**
 
   pull_request:
     branches:
-    - master
+    - prod
     paths: 
-    -  02_week/dev/application/**
+    -  week2/dev/application/**
 
   workflow_run:
-    workflows: ["Week 4 App Infra Deployment - Dev"]
+    workflows: ["Week 2 App Infra Deployment - Dev"]
     types:
       - completed
 
@@ -58,7 +58,7 @@ env:
   ECS_TASK_DEFINITION: task-definition.json                                             
   CONTAINER_NAME:  container                                                        
   AWS_REGION: us-east-1
-  WORKING_DIR: ./02_week/dev/application/services/api
+  WORKING_DIR: ./week2/dev/application/services/api
 
 permissions:
   contents: read
