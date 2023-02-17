@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "dev-acs730-week5-igeiman"
+    bucket = "dev-skills-ontario-jaishree"
     key    = "core-infrastructure-week2/terraform.tfstate"
     region = "us-east-1"
   }
