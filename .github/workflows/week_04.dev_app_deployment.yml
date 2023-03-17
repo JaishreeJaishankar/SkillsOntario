@@ -50,7 +50,7 @@ on:
     types:
       - completed
 env:
-  PREFIX:  week6-dev-todo-app
+  PREFIX:  week4-dev-todo-app
   ECR_REPOSITORY:  repo           
   ECS_SERVICE:   service                
   ECS_CLUSTER:   cluster               
