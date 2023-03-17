@@ -8,7 +8,7 @@ locals {
 data "terraform_remote_state" "hostedzone" {
   backend = "s3"
   config = {
-    bucket = "${local.prefix}-state" # TODO - work with a prefix-project bucket naame
+    bucket = "${local.prefix}-state" # TODO - work with a prefix-project bucket name
     key    = "hostedzone/terraform.tfstate"
     region = local.region
   }

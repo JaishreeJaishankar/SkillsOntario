@@ -1,7 +1,7 @@
 variable "domain_name" {
   type        = string
   description = "DNS name you own"
-  default     = "awscloudclub.ml"
+  default     = "explore-cloud-stuff.online"
 }
 
 variable "stage" {

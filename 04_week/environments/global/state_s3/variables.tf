@@ -2,7 +2,7 @@
 variable "namespace" {
   type        = string
   description = "Project name"
-  default     = "week6"
+  default     = "week4"
 }
 
 variable "name" {

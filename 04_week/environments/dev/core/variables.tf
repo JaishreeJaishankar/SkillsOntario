@@ -6,7 +6,7 @@ variable "stage" {
 variable "namespace" {
   type        = string
   description = "Project name"
-  default     = "week6"
+  default     = "week4"
 }
 
 variable "name" {
@@ -27,5 +27,5 @@ variable "ipv4_primary_cidr_block" {
 variable "domain_name" {
   type        = string
   description = "DNS name you own"
-  default     = "awscloudclub.ml"
+  default     = "explore-cloud-stuff.online"
 }

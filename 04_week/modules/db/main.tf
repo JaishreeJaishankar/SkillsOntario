@@ -71,7 +71,7 @@ resource "random_password" "this" {
 }
 
 resource "aws_secretsmanager_secret" "this" {
-  name                    = "todo-db-password"
+  name                    = "todo-db-password-new"
   recovery_window_in_days = 0
 }
 
