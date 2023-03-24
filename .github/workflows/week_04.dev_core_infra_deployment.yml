@@ -5,7 +5,7 @@ on:
     branches:
     - master
     paths: 
-    - 04_week/environments/devcore/**
+    - 04_week/environments/dev/core/**
   push:
     branches:
     - master
